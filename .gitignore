@@ -1,0 +1,20 @@
+# Data and caches are reproduced by stages 01-02; not worth versioning.
+data/raw/
+data/processed/
+artifacts/models/
+artifacts/predictions/
+artifacts/feature_pipeline/
+artifacts/metrics/
+
+# Keep the generated figures and dataset summary - they document the actual run.
+!reports/figures/
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.egg-info/
+.pytest_cache/
