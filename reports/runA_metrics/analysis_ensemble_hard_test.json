@@ -1,0 +1,139 @@
+{
+  "metrics": {
+    "accuracy": 0.5946666666666667,
+    "balanced_accuracy": 0.48237411704101324,
+    "f1_weighted": 0.5772402483219925,
+    "macro_f1": 0.5319992231833788,
+    "mcc": 0.454151279981888,
+    "precision_macro": 0.7379335367235519,
+    "recall_macro": 0.48237411704101324,
+    "split": "test",
+    "tag": "ensemble_hard"
+  },
+  "most_confused": [
+    {
+      "count": 164,
+      "pred": 2,
+      "share_errors": 0.26973684210526316,
+      "true": 3
+    },
+    {
+      "count": 101,
+      "pred": 2,
+      "share_errors": 0.16611842105263158,
+      "true": 1
+    },
+    {
+      "count": 68,
+      "pred": 2,
+      "share_errors": 0.1118421052631579,
+      "true": 4
+    },
+    {
+      "count": 56,
+      "pred": 2,
+      "share_errors": 0.09210526315789473,
+      "true": 6
+    },
+    {
+      "count": 44,
+      "pred": 2,
+      "share_errors": 0.07236842105263158,
+      "true": 5
+    },
+    {
+      "count": 44,
+      "pred": 3,
+      "share_errors": 0.07236842105263158,
+      "true": 2
+    },
+    {
+      "count": 22,
+      "pred": 1,
+      "share_errors": 0.03618421052631579,
+      "true": 2
+    },
+    {
+      "count": 21,
+      "pred": 6,
+      "share_errors": 0.03453947368421053,
+      "true": 2
+    },
+    {
+      "count": 14,
+      "pred": 3,
+      "share_errors": 0.023026315789473683,
+      "true": 1
+    },
+    {
+      "count": 10,
+      "pred": 1,
+      "share_errors": 0.01644736842105263,
+      "true": 4
+    },
+    {
+      "count": 10,
+      "pred": 3,
+      "share_errors": 0.01644736842105263,
+      "true": 4
+    },
+    {
+      "count": 8,
+      "pred": 6,
+      "share_errors": 0.013157894736842105,
+      "true": 1
+    },
+    {
+      "count": 7,
+      "pred": 3,
+      "share_errors": 0.011513157894736841,
+      "true": 5
+    },
+    {
+      "count": 7,
+      "pred": 1,
+      "share_errors": 0.011513157894736841,
+      "true": 3
+    },
+    {
+      "count": 7,
+      "pred": 6,
+      "share_errors": 0.011513157894736841,
+      "true": 3
+    },
+    {
+      "count": 6,
+      "pred": 6,
+      "share_errors": 0.009868421052631578,
+      "true": 5
+    },
+    {
+      "count": 6,
+      "pred": 1,
+      "share_errors": 0.009868421052631578,
+      "true": 5
+    },
+    {
+      "count": 4,
+      "pred": 3,
+      "share_errors": 0.006578947368421052,
+      "true": 6
+    },
+    {
+      "count": 4,
+      "pred": 6,
+      "share_errors": 0.006578947368421052,
+      "true": 4
+    },
+    {
+      "count": 2,
+      "pred": 1,
+      "share_errors": 0.003289473684210526,
+      "true": 6
+    }
+  ],
+  "n": 1500,
+  "roc_auc_per_class": {},
+  "split": "test",
+  "tag": "ensemble_hard"
+}

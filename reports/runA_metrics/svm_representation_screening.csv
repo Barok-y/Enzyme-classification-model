@@ -1,0 +1,2 @@
+representation,label,n_features,cv_macro_f1_mean,cv_macro_f1_std,seconds
+svd,SVD embedding (128),128,0.5251413856777876,0.009499026012260893,18.0599870929982

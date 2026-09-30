@@ -2,12 +2,18 @@
 data/raw/
 data/processed/
 artifacts/models/
-artifacts/predictions/
+artifacts/predictions/*
 artifacts/feature_pipeline/
 artifacts/metrics/
 
 # Keep the generated figures and dataset summary - they document the actual run.
 !reports/figures/
+!reports/runA_metrics/
+
+# Run A predictions are the evidence behind every number in REPORT.md (0.9 MB).
+# Model boosters are NOT committed: the largest is 94 MB and GitHub rejects >100 MB files.
+!artifacts/predictions/*.npy
+!artifacts/predictions/*__meta.json
 
 __pycache__/
 *.py[cod]

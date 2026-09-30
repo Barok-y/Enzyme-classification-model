@@ -1,0 +1,83 @@
+{
+  "best_params": {
+    "class_weight": "balanced",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 3,
+    "n_estimators": 800
+  },
+  "cross_validation": {
+    "features_used": 20,
+    "folds": 5,
+    "macro_f1_mean": 0.42352542634708296,
+    "macro_f1_std": 0.01241595145943744,
+    "n_candidates": 16,
+    "rows_used": 6999
+  },
+  "data": {
+    "n_test": 1500,
+    "n_train": 6999,
+    "n_val": 1500,
+    "sample_cap": 10000
+  },
+  "fit_scope": "train+val",
+  "imbalance_experiment": [],
+  "model_family": "rf",
+  "model_name": "RandomForest",
+  "model_tag": "rf_aac",
+  "representation": "aac",
+  "representation_label": "AAC (20)",
+  "representation_screening": [
+    {
+      "cv_macro_f1_mean": 0.3378595155077544,
+      "cv_macro_f1_std": 0.008431025940238838,
+      "label": "AAC (20)",
+      "n_features": 20,
+      "representation": "aac",
+      "seconds": 5.710429495999051
+    },
+    {
+      "cv_macro_f1_mean": 0.3119977976588831,
+      "cv_macro_f1_std": 0.002735627532562851,
+      "label": "SVD embedding (128)",
+      "n_features": 128,
+      "representation": "svd",
+      "seconds": 14.828119310001057
+    },
+    {
+      "cv_macro_f1_mean": 0.22581501183592945,
+      "cv_macro_f1_std": 0.013012860104968327,
+      "label": "Dipeptide (400)",
+      "n_features": 400,
+      "representation": "dipeptide",
+      "seconds": 13.337366007999663
+    }
+  ],
+  "select_k": 8000,
+  "test": {
+    "accuracy": 0.532,
+    "auprc_macro": 0.4961903263250483,
+    "balanced_accuracy": 0.40742383751076466,
+    "f1_weighted": 0.5038641424385846,
+    "macro_f1": 0.44135649996001364,
+    "mcc": 0.36034894795963024,
+    "n": 1500,
+    "precision_macro": 0.63124468366507,
+    "recall_macro": 0.40742383751076466,
+    "split": "test",
+    "tag": "rf_aac"
+  },
+  "validation": {
+    "accuracy": 0.5053333333333333,
+    "auprc_macro": 0.4695307729965867,
+    "balanced_accuracy": 0.3863125175230231,
+    "f1_weighted": 0.4808476555728794,
+    "macro_f1": 0.41645866668998854,
+    "mcc": 0.3216038409330661,
+    "n": 1500,
+    "precision_macro": 0.5623617135305569,
+    "recall_macro": 0.3863125175230231,
+    "split": "val",
+    "tag": "rf_aac"
+  }
+}

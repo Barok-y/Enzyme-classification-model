@@ -1,0 +1,83 @@
+{
+  "best_params": {
+    "class_weight": "balanced",
+    "learning_rate": 0.1,
+    "min_child_samples": 20,
+    "n_estimators": 400,
+    "num_leaves": 31
+  },
+  "cross_validation": {
+    "features_used": 400,
+    "folds": 5,
+    "macro_f1_mean": 0.5591340921302834,
+    "macro_f1_std": 0.01359848255313054,
+    "n_candidates": 2,
+    "rows_used": 6999
+  },
+  "data": {
+    "n_test": 1500,
+    "n_train": 6999,
+    "n_val": 1500,
+    "sample_cap": 10000
+  },
+  "fit_scope": "train+val",
+  "imbalance_experiment": [],
+  "model_family": "lgbm",
+  "model_name": "LightGBM",
+  "model_tag": "lgbm_dipeptide",
+  "representation": "dipeptide",
+  "representation_label": "Dipeptide (400)",
+  "representation_screening": [
+    {
+      "cv_macro_f1_mean": 0.5112945258450404,
+      "cv_macro_f1_std": 0.013140681861137595,
+      "label": "Dipeptide (400)",
+      "n_features": 400,
+      "representation": "dipeptide",
+      "seconds": 63.19739870199919
+    },
+    {
+      "cv_macro_f1_mean": 0.4867948610764648,
+      "cv_macro_f1_std": 0.007907656877952947,
+      "label": "SVD embedding (128)",
+      "n_features": 128,
+      "representation": "svd",
+      "seconds": 21.22944690100121
+    },
+    {
+      "cv_macro_f1_mean": 0.42090412266038113,
+      "cv_macro_f1_std": 0.0010541091208322677,
+      "label": "AAC (20)",
+      "n_features": 20,
+      "representation": "aac",
+      "seconds": 4.598273075000179
+    }
+  ],
+  "select_k": 8000,
+  "test": {
+    "accuracy": 0.6446666666666667,
+    "auprc_macro": 0.7076198900031684,
+    "balanced_accuracy": 0.5408100234684805,
+    "f1_weighted": 0.6328346181304112,
+    "macro_f1": 0.5971378333879694,
+    "mcc": 0.521340329999493,
+    "n": 1500,
+    "precision_macro": 0.7706227120244461,
+    "recall_macro": 0.5408100234684805,
+    "split": "test",
+    "tag": "lgbm_dipeptide"
+  },
+  "validation": {
+    "accuracy": 0.6333333333333333,
+    "auprc_macro": 0.681478092147023,
+    "balanced_accuracy": 0.5206607923488131,
+    "f1_weighted": 0.6188598308650938,
+    "macro_f1": 0.575133507736413,
+    "mcc": 0.5050197447920205,
+    "n": 1500,
+    "precision_macro": 0.7456861133927476,
+    "recall_macro": 0.5206607923488131,
+    "split": "val",
+    "tag": "lgbm_dipeptide"
+  }
+}

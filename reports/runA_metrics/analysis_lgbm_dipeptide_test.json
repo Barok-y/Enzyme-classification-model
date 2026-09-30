@@ -1,0 +1,156 @@
+{
+  "metrics": {
+    "accuracy": 0.6446666666666667,
+    "auprc_macro": 0.7076198900031684,
+    "balanced_accuracy": 0.5408100234684805,
+    "f1_weighted": 0.6328346181304112,
+    "macro_f1": 0.5971378333879694,
+    "mcc": 0.521340329999493,
+    "precision_macro": 0.7706227120244461,
+    "recall_macro": 0.5408100234684805,
+    "roc_auc_macro": 0.8828471230445455,
+    "roc_auc_per_class": {
+      "1": 0.8648842382475428,
+      "2": 0.8459829593951957,
+      "3": 0.8734825567690737,
+      "4": 0.8980542237774806,
+      "5": 0.8599207746478873,
+      "6": 0.9547579854300925
+    },
+    "split": "test",
+    "tag": "lgbm_dipeptide"
+  },
+  "most_confused": [
+    {
+      "count": 124,
+      "pred": 2,
+      "share_errors": 0.2326454033771107,
+      "true": 3
+    },
+    {
+      "count": 86,
+      "pred": 2,
+      "share_errors": 0.16135084427767354,
+      "true": 1
+    },
+    {
+      "count": 65,
+      "pred": 3,
+      "share_errors": 0.12195121951219512,
+      "true": 2
+    },
+    {
+      "count": 53,
+      "pred": 2,
+      "share_errors": 0.09943714821763602,
+      "true": 4
+    },
+    {
+      "count": 44,
+      "pred": 2,
+      "share_errors": 0.0825515947467167,
+      "true": 6
+    },
+    {
+      "count": 36,
+      "pred": 2,
+      "share_errors": 0.0675422138836773,
+      "true": 5
+    },
+    {
+      "count": 21,
+      "pred": 3,
+      "share_errors": 0.039399624765478425,
+      "true": 1
+    },
+    {
+      "count": 18,
+      "pred": 3,
+      "share_errors": 0.03377110694183865,
+      "true": 4
+    },
+    {
+      "count": 14,
+      "pred": 3,
+      "share_errors": 0.02626641651031895,
+      "true": 5
+    },
+    {
+      "count": 10,
+      "pred": 6,
+      "share_errors": 0.01876172607879925,
+      "true": 2
+    },
+    {
+      "count": 10,
+      "pred": 3,
+      "share_errors": 0.01876172607879925,
+      "true": 6
+    },
+    {
+      "count": 9,
+      "pred": 1,
+      "share_errors": 0.016885553470919325,
+      "true": 2
+    },
+    {
+      "count": 8,
+      "pred": 1,
+      "share_errors": 0.0150093808630394,
+      "true": 4
+    },
+    {
+      "count": 7,
+      "pred": 6,
+      "share_errors": 0.013133208255159476,
+      "true": 3
+    },
+    {
+      "count": 5,
+      "pred": 1,
+      "share_errors": 0.009380863039399626,
+      "true": 3
+    },
+    {
+      "count": 4,
+      "pred": 6,
+      "share_errors": 0.0075046904315197,
+      "true": 4
+    },
+    {
+      "count": 4,
+      "pred": 6,
+      "share_errors": 0.0075046904315197,
+      "true": 1
+    },
+    {
+      "count": 3,
+      "pred": 6,
+      "share_errors": 0.005628517823639775,
+      "true": 5
+    },
+    {
+      "count": 3,
+      "pred": 1,
+      "share_errors": 0.005628517823639775,
+      "true": 5
+    },
+    {
+      "count": 2,
+      "pred": 4,
+      "share_errors": 0.00375234521575985,
+      "true": 3
+    }
+  ],
+  "n": 1500,
+  "roc_auc_per_class": {
+    "1": 0.8648842382475428,
+    "2": 0.8459829593951957,
+    "3": 0.8734825567690737,
+    "4": 0.8980542237774806,
+    "5": 0.8599207746478873,
+    "6": 0.9547579854300925
+  },
+  "split": "test",
+  "tag": "lgbm_dipeptide"
+}
